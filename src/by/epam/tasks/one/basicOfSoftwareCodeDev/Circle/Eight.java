@@ -50,6 +50,7 @@ public class Eight {
             for (int j = 0; j < secondElemArray.length; j++){
                 if(firstElemArray[i] == secondElemArray[j]){
                     System.out.print(firstElemArray[i] + ", ");
+                    break;                                          //при нахождении совподения дальнейшая проверка не нужна
                 }
             }
         }
